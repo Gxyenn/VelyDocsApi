@@ -113,9 +113,4 @@ app.use('*', (req, res) => {
   });
 });
 
-// ==========================
-// 🔹 Start Server
-// ==========================
-app.listen(port, () => {
-  console.log(`🚀 Vely -Docs Apikey running on port ${port}`);
-});
+module.exports = app;
